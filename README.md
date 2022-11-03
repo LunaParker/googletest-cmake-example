@@ -22,3 +22,9 @@ While it comes down to preference, here's my opinion on why Googletest is a bett
 1. **Googletest is more C-like** and doesn't rely as much on C++ design paradigms as Microsoft's unit testing framework does (which makes sense given the name!) As such, it's easy to understand if your background is only C, as opposed to Microsoft which relies on C++ fixtures and class concepts (which we have not learned yet in PROG71985).
 2. **Googletest works cross-platform** and as such is better for teams which aren't all using Visual Studio.
 3. **Googletest is integrated into more IDEs**. It works excellent with both CLion and Visual Studio, making it a more inclusive testing framework.
+
+## Additional Resources
+Here are some additional resources that you may find helpful in testing with Googletest:
+- [Unit Testing with Googletest in CLion](https://www.jetbrains.com/help/clion/creating-google-test-run-debug-configuration-for-test.html): shows how to use CLion's testing GUI with Googletest
+- [Googletest's User Guide](http://google.github.io/googletest/): contains all sorts of useful information about Googletest
+- [List of Googletest Assertions](http://google.github.io/googletest/reference/assertions.html): a list of all types of assertions you can run in your tests
